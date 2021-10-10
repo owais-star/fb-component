@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import book from './images/book.jpg';
+import Fbpost from "./Fbpost.jsx"
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+<div>
+      <Fbpost description="hi this is owais" postimg={book} userimg={book} username="wasif"/>
+      <Fbpost description="hi this is owaisfd" postimg={book} userimg={book} username="bilal"/>
+      <Fbpost description="hi this is owaisdfddg" postimg={book} userimg={book} username="kldfj"/>
+</div>
+);
 }
 
 export default App;
